@@ -9,5 +9,25 @@
             "email": "3442567+raigu@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "bin": [
+        "bin/sync-est-companies.php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Raigu\\EstCompaniesCache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Raigu\\EstCompaniesCache\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "psr/log": "^3.0",
+        "raigu/ordered-lists-sync": "^0.1||>0.1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
