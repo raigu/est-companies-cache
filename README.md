@@ -1,3 +1,5 @@
+**Under construction! Not usable!**
+
 Script for downloading and keeping up to date companies data from Commercial Register of Estonia.
 Data is stored locally in SQLite database. The script must be executed periodically in order to 
 keep the data in sync.
