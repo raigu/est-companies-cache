@@ -1,0 +1,13 @@
+{
+    "name": "raigu/est-companies-cache",
+    "description": "Script for downloading and keeping up to date companies data from Commercial Register of Estonia.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rait Kapp",
+            "email": "3442567+raigu@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
